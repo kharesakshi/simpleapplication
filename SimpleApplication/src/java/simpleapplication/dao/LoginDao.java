@@ -51,36 +51,7 @@ public class LoginDao {
         return s;
     }
     
-    /*public static String fetchUserRole(Login login){
-        String username=login.getUserId();
-        String password=login.getPassword();
-        String s=login.getUserRole();
-        
-        String username1="";
-        String password1="";
-        String userRole="";
-        
-        try{
-        ResultSet rs=ps5.executeQuery();
-        
-        while(rs.next()){
-            username1=rs.getString("username");
-            password1=rs.getString("password");
-            userRole=rs.getString("s");
-            
-             if(username.equals(username1) && password.equals(password1) && userRole.equals("admin"))
-            return "admin";
-            else if(username.equals(username1) && password.equals(password1) && userRole.equals("employee"))
-            return "employee";
-            
-        }
-        }
-        catch(SQLException e){
-            System.out.println(e);
-        }
-        
-        return s;
-    }*/
+    
     
     public static boolean employeeLogin(String employeeId,String password) throws SQLException{
          boolean s=false;
