@@ -1,0 +1,63 @@
+ /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30 Dec, 2020, 12:50:44 PM
+    Author     : Lenovo
+*/
+
+button{
+    background-color: #555555;
+    border: 2px #555555 solid;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color:#8b8589;
+}
+
+div{
+    padding:60px;
+}
+
+body{
+    background-color: #f4f0ec;
+}
+
+.login-button{
+    background-color: #555555;
+    border: 2px #555555 solid;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.login-button:hover{
+     background-color:#8b8589;
+}
+.register-button{
+    background-color: #555555;
+    border: 2px #555555 solid;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.register-button:hover{
+     background-color:#8b8589;
+}
