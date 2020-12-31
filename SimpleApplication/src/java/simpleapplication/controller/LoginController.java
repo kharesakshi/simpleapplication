@@ -39,25 +39,7 @@ public class LoginController extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            /*String username=request.getParameter("username");
-            String password=request.getParameter("password");
-            Login l=new Login();
             
-                if(l.getUserId().equals(username)){
-                    if(l.getUserRole().equals("employee")){
-                        RequestDispatcher dis=request.getRequestDispatcher("employee-homepage.jsp");
-                        dis.forward(request,response);
-                    }
-                    else if(l.getUserRole().equals("admin")){
-                        RequestDispatcher dis=request.getRequestDispatcher("admin-homepage.jsp");
-                        dis.forward(request,response);
-                    }
-                    else{
-                        out.println("Invalid username and password");
-                        RequestDispatcher dis=request.getRequestDispatcher("login.jsp");
-                        dis.include(request,response);
-            }
-                }*/
         
     }
     }
