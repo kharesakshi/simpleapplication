@@ -9,13 +9,15 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="styles/login.css">
         <title>LOGIN</title>
     </head>
     <body>
         <div align="center">
             <h1>Login</h1>
-            <form id="login" action="LoginController" method="post">
-                <label for="username">Username:</label>
+            <form id="login" action="LoginController">
+                
+                <label for="username">User ID:</label>
                 <input type="text" placeholder="Enter Username" name="username" id="username">
                 
                 <br><br>
@@ -26,8 +28,13 @@
                 <br><br>
                 
                 <input type="submit" value="Login">
+               
                 
             </form>
+            <br><br>
+            
+            <label>Do not have an account? Register Here.</label>
+            <a href="register-user.jsp"><button>Register</button></a>
         </div>
     </body>
 </html>
