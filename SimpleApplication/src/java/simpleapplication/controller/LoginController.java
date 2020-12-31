@@ -39,23 +39,27 @@ public class LoginController extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            String username=request.getParameter("username");
+            /*String username=request.getParameter("username");
             String password=request.getParameter("password");
-         
-             try {
-            if(LoginDao.validate(username, password)){
-                RequestDispatcher dis=request.getRequestDispatcher("homepage.jsp");
-                dis.forward(request,response);
+            Login l=new Login();
+            
+                if(l.getUserId().equals(username)){
+                    if(l.getUserRole().equals("employee")){
+                        RequestDispatcher dis=request.getRequestDispatcher("employee-homepage.jsp");
+                        dis.forward(request,response);
+                    }
+                    else if(l.getUserRole().equals("admin")){
+                        RequestDispatcher dis=request.getRequestDispatcher("admin-homepage.jsp");
+                        dis.forward(request,response);
+                    }
+                    else{
+                        out.println("Invalid username and password");
+                        RequestDispatcher dis=request.getRequestDispatcher("login.jsp");
+                        dis.include(request,response);
             }
-            else{
-                out.println("Invalid username and password");
-                RequestDispatcher dis=request.getRequestDispatcher("login.jsp");
-                dis.include(request,response);
-            }
-        } catch (SQLException ex) {
-            System.out.println(ex);
-        }
-        }
+                }*/
+        
+    }
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

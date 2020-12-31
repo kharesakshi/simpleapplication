@@ -19,7 +19,7 @@
         
             
             <%
-                String employeeId=request.getParameter("employeeId");
+                String employeeId=request.getParameter("username");
                 out.println("Your Employee Id is:"+employeeId);
 
             %>

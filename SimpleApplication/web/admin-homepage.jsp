@@ -17,7 +17,7 @@
             <h3>You have logged in successfully.</h3>
             
             <%
-                String adminId=request.getParameter("adminId");
+                String adminId=request.getParameter("username");
                 out.println("Your admin ID is:"+adminId);
                 %>
         </div>
